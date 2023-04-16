@@ -11,5 +11,7 @@
         Task<T> GetItemAsync(string id);
 
         Task<IEnumerable<T>> GetItemsAsync(bool forceRefresh = false);
+
+        Task<string> Authenticate(string userName, string password);
     }
 }

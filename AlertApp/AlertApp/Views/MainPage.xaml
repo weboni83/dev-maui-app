@@ -17,6 +17,9 @@
         <Tab Title="Popup" Icon="popup">
             <ShellContent ContentTemplate="{DataTemplate local:PopupPage}" />
         </Tab>
+        <Tab Title="Logout" Icon="logout">
+            <ShellContent ContentTemplate="{DataTemplate local:LoginPage}" Route="MAUI.Views.LoginPage" />
+        </Tab>
     </TabBar>
     <TabBar>
         <ShellContent ContentTemplate="{DataTemplate local:LoginPage}"

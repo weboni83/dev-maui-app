@@ -24,8 +24,8 @@ namespace AlertApp
             // Code lines below show how to navigate to a specific page.
             // Comment out all but one of these lines
             // to open the corresponding page.
-            //var navigationService = DependencyService.Get<INavigationService>();
-            //navigationService.NavigateToAsync<LoginViewModel>(true);
+            var navigationService = DependencyService.Get<INavigationService>();
+            navigationService.NavigateToAsync<LoginViewModel>(true);
         }
     }
 }

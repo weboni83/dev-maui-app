@@ -38,6 +38,10 @@
 		<MauiFont Include="Resources\Fonts\*" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Resources\Images\logout.svg" />
+	</ItemGroup>
+
 
 	<ItemGroup>
 		<PackageReference Include="DevExpress.Maui.CollectionView" Version="22.2.5" />
